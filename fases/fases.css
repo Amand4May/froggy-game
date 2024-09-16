@@ -1,0 +1,54 @@
+*{
+    background-color: rgb(8, 62, 83);
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+#sam-verde{
+    border: 5px solid greenyellow;
+}
+
+#clove-vermelho{
+    border: 5px solid rgb(255, 47, 47);
+}
+
+#alex-amarelo{
+    border: 5px solid rgb(255, 252, 47);
+}
+
+.f1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.f2{
+    display: flex;
+    justify-content: center;
+}
+
+.f3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.f4{
+    display: flex;
+    justify-content: space-between;
+}   
+
+.f5{
+    display: flex;
+    align-items: flex-end;
+}
+
+.f6{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
