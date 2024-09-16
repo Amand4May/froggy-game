@@ -10,6 +10,11 @@ img{
     height: 300px;
 }
 
+main{
+    width: 1700px;
+    height: 880px;
+}
+
 #sam-verde{
     border: 5px solid greenyellow;
 }
@@ -51,4 +56,10 @@ img{
     display: flex;
     justify-content: center ;
     align-items: center;
+}
+
+.f7{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
 }
