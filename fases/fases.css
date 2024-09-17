@@ -1,18 +1,29 @@
 *{
-    background-color: rgb(8, 62, 83);
     margin: 0;
     padding: 0;
 }
 
 img{
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    background-color: rgb(255, 255, 255);
+    width: 145px;
+    height: 145px;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
 }
 
 main{
-    width: 1700px;
-    height: 880px;
+    border: 5px solid rgb(0, 96, 160);
+    border-radius: 5px;
+    background-color: #1F5768;
+    width: 772px;
+    height: 772px;
 }
 
 #sam-verde{
@@ -27,39 +38,176 @@ main{
     border: 5px solid rgb(255, 252, 47);
 }
 
+/* fase 1 */
 .f1{
     display: flex;
     justify-content: flex-end;
 }
 
+/* fase 2 */
 .f2{
     display: flex;
     justify-content: center;
 }
 
+/* fase 3 */
 .f3{
     display: flex;
     justify-content: space-around;
 }
 
+/* fase 4 */
 .f4{
     display: flex;
     justify-content: space-between;
 }   
 
+/* fase 5 */
 .f5{
     display: flex;
     align-items: flex-end;
 }
 
+/* fase 6 */
 .f6{
     display: flex;
     justify-content: center ;
     align-items: center;
 }
 
+/* fase 7 */
 .f7{
     display: flex;
-    align-items: flex-end;
     justify-content: space-around;
+    align-items: flex-end;
+}
+
+/* fase 8 */
+.f8{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* fase 9 */
+.f9{
+    display: flex;
+    flex-direction: column;
+}
+
+/* fase 10 */
+.f10{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+/* fase 11 */
+.f11{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* fase 12 */
+.f12{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+/* fase 13 */
+.f13{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: end;
+}
+
+/* fase 14 */
+.f14{
+    display: flex;
+}
+
+.alex-amarelo-f14{
+    order: 2;
+}
+
+/* fase 15 */
+.f15{
+    display: flex;
+}
+
+.clove-vermelho-f15{
+    order: -2;
+}
+
+/* fase 16 */
+.f16{
+    display: flex;
+    align-items: flex-start;
+}
+
+.alex-amarelo-f16{
+    align-self: end;
+}
+
+/* fase 17 */
+.f17{
+    display: flex;
+    align-items: flex-start;
+}
+
+.alex-amarelo-f17{
+    order: 2;
+    align-self: end;
+}
+
+/* fase 18 */
+.f18{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* fase 19 */
+.f19{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* fase 20*/
+.f20{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/* fase 21 */
+.f21{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+/* fase 22 */
+.f22{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+/* fase 23 */
+.f23{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
+
+/* fase 24 */
+.f24{
+    display: flex;
+    flex-direction: column-reverse; 
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-content: space-between;
 }
